@@ -89,3 +89,12 @@ header p{
     filter: grayscale(0%);
     transform: scale(1.2);
 }
+
+header img{
+    display: 80%;
+    transition:1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    margin-bottom: 20px;
+}
+header img:hover{
+transform: scale(1.1);    
+}
