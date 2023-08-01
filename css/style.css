@@ -115,3 +115,11 @@ transform: scale(1.1);
     top: -22px;
     left: 25px;
 }
+.accordion-item{
+    border: none;
+}
+.faq{
+    background-color: aliceblue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
