@@ -98,3 +98,20 @@ header img{
 header img:hover{
 transform: scale(1.1);    
 }
+.divider{
+    background-color: black;
+    height: 1px;
+    width: 130px;
+    margin: 20px auto;
+}
+.divider::after{
+    content: '';
+    background-color: rgb(102, 68, 255);
+    height: 5px;
+    width: 40px;
+    margin: 20px;
+    position: relative;
+    display: inline-block;
+    top: -22px;
+    left: 25px;
+}
