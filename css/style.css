@@ -119,7 +119,18 @@ transform: scale(1.1);
     border: none;
 }
 .faq{
-    background-color: aliceblue;
+    background-color: #ffffff;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+.progress-text{
+    display:flex;
+    justify-content: space-between;
+    padding: 0px 0px;
+}
+.progress{
+    margin-bottom: 40px;
+}
+.progress-bar{
+    background: #1f42c4;
 }
