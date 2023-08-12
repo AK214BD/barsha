@@ -134,3 +134,15 @@ transform: scale(1.1);
 .progress-bar{
     background: #1f42c4;
 }
+.row3{
+    display: flex;
+    justify-content: space-between;
+}
+.services h1{
+    font-family: jost;
+    font-weight: 600;
+}
+.serinfo{
+    text-align: center;
+    font-size: 20px;
+}
