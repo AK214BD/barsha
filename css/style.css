@@ -151,8 +151,32 @@ transform: scale(1.1);
     padding: 50px 30px;
     transition: all ease-in-out 0.4s;
     background: #fff;
-
+    justify-content: space-between;
+    flex-basis: 20%;
+    box-sizing: border-box;
 }
 .service-row:hover{
-    translate:(-10px);
+    margin-top: -10px;
+}
+.service-row i{
+    font-size: 30px;
+    color: #c0bd23;
+    margin-bottom: 20px;
+}
+.service-row a{
+    text-decoration: none;
+}
+.row3{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    flex-basis: 20%;
+}
+
+.cta{
+    background-image: linear-gradient(rgba(88, 88, 212, 0.5), rgba(88, 88, 212, 0.5)),url(../images/enhance.ahdc_84313762_200647207659426_2916418050972042258_n-dabf1fbc63754413ab95ce375a98063a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
 }
